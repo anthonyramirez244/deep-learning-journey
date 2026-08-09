@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "Phase 1",
+			"path": "Phase 1"
+		},
+		{
+			"name": "Phase 2",
+			"path": "Phase 2"
+		},
+		{
+			"name": "Phase 3",
+			"path": "Phase 3"
+		},
+		{
+			"name": "Phase 4",
+			"path": "Phase 4"
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "${workspaceFolder}/../.venv/bin/python",
+		"python.terminal.activateEnvironment": true,
+		"jupyter.kernels.excludePythonEnvironments": [
+			"${workspaceFolder}/../.venv/bin/python"
+		]
+	}
+}
