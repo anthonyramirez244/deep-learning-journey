@@ -30,6 +30,10 @@ Phase 6's final project — a planner, concurrent critic-gated researchers, a lo
 
 **→ [researcher-model](https://github.com/anthonyramirez244/researcher-model)**
 
+## Measuring what got built: rag-eval-bench
+
+Building a RAG pipeline (Phase 3) and measuring whether it's actually good are different skills. **[rag-eval-bench](https://github.com/anthonyramirez244/rag-eval-bench)** takes Phase 3's RAG pipeline through real retrieval precision/recall/MRR, LLM-judge groundedness detection, and latency benchmarking — pipeline-agnostic, so it runs against any RAG system that implements a two-method adapter, not just this one.
+
 ## Setup
 
 ```bash
